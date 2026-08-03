@@ -1,0 +1,6 @@
+{
+  "name": "Fazenda Jutuba - Eco-Resort",
+  "description": "Landing page imobiliária premium de eco-resort e reserva particular de 272 hectares com praia de rio em Santarém, Pará.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

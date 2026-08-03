@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --mata-900: #0A2A1C;
+    --mata-700: #123B2A;
+    --folha-500: #2F7A4D;
+    --folha-300: #7FB68E;
+    --areia-50: #F5F0E4;
+    --areia-200: #E7DCC6;
+    --rio-500: #17777B;
+    --sol-500: #C98A2D;
+  }
+
+  body {
+    background-color: var(--mata-900);
+    color: var(--areia-50);
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* Glassmorphism & custom utility classes */
+.glass-panel-dark {
+  background: rgba(10, 42, 28, 0.82);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(127, 182, 142, 0.2);
+}
+
+.glass-panel-light {
+  background: rgba(245, 240, 228, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(47, 122, 77, 0.2);
+}
+
+.btn-sol {
+  background-color: #C98A2D;
+  color: #0A2A1C;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 20px rgba(201, 138, 45, 0.25);
+}
+
+.btn-sol:hover {
+  background-color: #e09d36;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(201, 138, 45, 0.45);
+}
+
+.btn-outline-verde {
+  border: 1px solid #7FB68E;
+  color: #F5F0E4;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-verde:hover {
+  background-color: rgba(127, 182, 142, 0.15);
+  border-color: #2F7A4D;
+  color: #ffffff;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0A2A1C;
+}
+::-webkit-scrollbar-thumb {
+  background: #123B2A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2F7A4D;
+}
+
+/* Animations */
+@keyframes kenburns {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+.animate-kenburns {
+  animation: kenburns 30s infinite ease-in-out alternate;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 15px rgba(201, 138, 45, 0.4); }
+  50% { box-shadow: 0 0 30px rgba(201, 138, 45, 0.8); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s infinite ease-in-out;
+}
+
+@keyframes pulseWhatsapp {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+  70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+}
+
+.animate-pulse-whatsapp {
+  animation: pulseWhatsapp 2s infinite;
+}
+
+/* Hide scrollbar for carousel horizontal overflow */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

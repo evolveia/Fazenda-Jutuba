@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#0A2A1C"/>
+  <rect width="472" height="472" x="20" y="20" rx="108" fill="none" stroke="#7FB68E" stroke-opacity="0.3" stroke-width="8"/>
+  <!-- Leaf Icon in Gold & Emerald Green -->
+  <g transform="translate(100, 100) scale(1.22)">
+    <path d="M220 30 C110 30 40 110 40 220 C40 240 44 260 52 278 C56 260 66 242 80 228 C116 192 170 170 230 166 C238 200 234 238 214 270 C190 308 148 332 100 344 C122 354 146 360 172 360 C282 360 352 280 352 170 C352 90 300 30 220 30 Z" fill="#7FB68E"/>
+    <path d="M100 344 C148 332 190 308 214 270 C234 238 238 200 230 166 C170 170 116 192 80 228 C66 242 56 260 52 278 C70 306 82 328 100 344 Z" fill="#C98A2D"/>
+  </g>
+</svg>
