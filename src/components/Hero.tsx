@@ -8,19 +8,19 @@ interface HeroProps {
 
 const HERO_IMAGES = [
   {
-    url: "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=2000&q=90",
-    alt: "Vista aérea da floresta amazônica preservada e leito do rio em Santarém",
-    caption: "Reserva Particular de 272 Hectares em Santarém/PA"
+    url: "https://casasaimiri.com.br/wp-content/uploads/2023/12/WhatsApp-Image-2025-02-19-at-16.03.54-scaled-e1739991907727.jpeg",
+    alt: "Praia e Orla com +400m na Fazenda Jutuba em Santarém",
+    caption: "+400 metros de Orla Exclusiva no Rio Tapajós"
   },
   {
-    url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2000&q=90",
-    alt: "Mais de 2 km de praia de rio com areia clara e águas límpidas",
-    caption: "+2 km de Orla Privativa de Praia de Rio"
+    url: "https://www.tapajosdefato.com.br/images/noticias/1133/353e5368b6ebdfe74b750ccfa06fb8ef.jpeg",
+    alt: "Vista aérea da floresta preservada de 272,70 ha em Santarém",
+    caption: "Terreno de 2,74 km² (272,70 ha) de Floresta Preservada"
   },
   {
-    url: "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=2000&q=90",
-    alt: "Píer flutuante e lounge náutico de observação do pôr do sol",
-    caption: "Píer Estruturado & Marina Flutuante Jutuba"
+    url: "https://vemparaalter.com.br/wp-content/uploads/2024/11/turismo-em-santararem-encontro-das-aguas-1.webp",
+    alt: "Encontro das águas e orla fluvial em Santarém/PA",
+    caption: "Santarém • Encontro das Águas & Tapajós"
   }
 ];
 
@@ -141,16 +141,16 @@ export const Hero: React.FC<HeroProps> = ({ onOpenVisitModal }) => {
 
           {/* Main H1 Title */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black font-heading text-[#F5F0E4] leading-[1.08] tracking-tight mb-6 drop-shadow-md">
-            Sua vida em <br className="hidden sm:inline" />
+            Venda de Terreno na <br className="hidden sm:inline" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F5F0E4] via-[#7FB68E] to-[#C98A2D]">
-              modo floresta
+              Amazônia
             </span>{' '}
-            todo dia.
+            em Santarém.
           </h1>
 
           {/* Subtitle */}
           <p className="text-base sm:text-xl md:text-2xl text-[#E7DCC6] font-normal leading-relaxed mb-8 max-w-2xl drop-shadow">
-            <strong className="text-[#F5F0E4] font-semibold">272 hectares</strong> de reserva particular preservada e mais de <strong className="text-[#C98A2D] font-semibold">2 km de praia particular de rio</strong> com águas quentes e cristalinas em Santarém.
+            Área privilegiada com <strong className="text-[#C98A2D] font-bold">+400 metros de Orla</strong> no Rio Tapajós, perímetro de <strong className="text-[#F5F0E4] font-bold">272,70 ha</strong> e extensão de <strong className="text-[#7FB68E] font-bold">2,74 km²</strong> com documento 100% regularizado em Santarém/PA.
           </p>
 
           {/* CTA Buttons */}

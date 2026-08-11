@@ -9,11 +9,11 @@ export const BannerHeroImage: React.FC = () => {
           {/* Main Large Image */}
           <div className="h-[360px] sm:h-[480px] lg:h-[580px] w-full overflow-hidden relative">
             <img
-              src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=2000&q=90"
-              alt="Reserva Particular e Portal Principal da Fazenda Jutuba na Amazônia em Santarém"
+              src="https://casasaimiri.com.br/wp-content/uploads/2023/10/Orla-de-Santarem-2.jpg"
+              alt="Vista da Orla de Santarém e Acesso à Fazenda Jutuba na Amazônia"
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-1000 ease-out"
               onError={(e) => {
-                e.currentTarget.src = "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=2000&q=90";
+                e.currentTarget.src = "https://casasaimiri.com.br/wp-content/uploads/2023/12/WhatsApp-Image-2025-02-19-at-16.03.54-scaled-e1739991907727.jpeg";
               }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0A2A1C] via-transparent to-black/30" />

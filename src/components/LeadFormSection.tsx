@@ -108,34 +108,34 @@ Gostaria de atendimento VIP e mais informações sobre a reserva de 272 hectares
             </div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black font-heading text-[#F5F0E4] leading-tight tracking-tight">
-              A primeira reserva residencial particular de Santarém.
+              Oportunidade de Aquisição e Venda de Terreno em Santarém.
             </h2>
 
             <p className="text-base sm:text-lg text-[#E7DCC6]/90 font-normal leading-relaxed">
-              Um conceito inédito de moradia e preservação na Amazônia. São mais de <strong className="text-[#F5F0E4] font-semibold">272 hectares</strong> de floresta nativa preservada, com mais de <strong className="text-[#C98A2D] font-semibold">2 km de praia exclusiva de rio</strong>, águas calmas e límpidas e infraestrutura de suporte completa.
+              Propriedade com extensão total de <strong className="text-[#F5F0E4] font-semibold">2,74 km²</strong> (perímetro de <strong className="text-[#F5F0E4] font-semibold">272,70 hectares</strong>) e mais de <strong className="text-[#C98A2D] font-semibold">+400 metros de Orla de rio</strong> com areia clara, banhada pelas águas calmas do Rio Tapajós em Santarém/PA.
             </p>
 
             <p className="text-sm sm:text-base text-[#7FB68E] leading-relaxed">
-              Viver na Fazenda Jutuba é unir a paz da floresta tropical com a segurança de um condomínio de alto padrão 100% legalizado (Matrícula individual no CRI de Santarém/PA, CAR e SIGEF regularizados).
+              Ideal para investidores, loteamentos de luxo, eco-resort ou reserva particular residencial 100% legalizada (Matrícula individual no CRI de Santarém/PA, CAR e SIGEF regularizados).
             </p>
 
             {/* Checklist of highlights */}
             <div className="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-[#F5F0E4]">
               <div className="flex items-center gap-2.5">
                 <CheckCircle2 className="w-5 h-5 text-[#C98A2D] flex-shrink-0" />
-                <span>272 Hectares Protegidos</span>
+                <span>Perímetro de 272,70 ha</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <CheckCircle2 className="w-5 h-5 text-[#C98A2D] flex-shrink-0" />
-                <span>+2 km de Orla Privativa</span>
+                <span>+400m de Orla Exclusiva</span>
+              </div>
+              <div className="flex items-center gap-2.5">
+                <CheckCircle2 className="w-5 h-5 text-[#C98A2D] flex-shrink-0" />
+                <span>Área Total de 2,74 km²</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <CheckCircle2 className="w-5 h-5 text-[#C98A2D] flex-shrink-0" />
                 <span>Documentação 100% Regular</span>
-              </div>
-              <div className="flex items-center gap-2.5">
-                <CheckCircle2 className="w-5 h-5 text-[#C98A2D] flex-shrink-0" />
-                <span>Pier, Marina & Decks</span>
               </div>
             </div>
 

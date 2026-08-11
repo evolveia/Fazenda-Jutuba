@@ -8,10 +8,11 @@ import {
 
 export const FAZENDA_JUTUBA_CONFIG = {
   nome: "Fazenda Jutuba",
-  subtitulo: "Eco-Resort & Reserva Particular",
+  subtitulo: "Venda de Terreno & Reserva Particular",
   localizacao: "Santarém, Pará — Amazônia Brasileira",
-  areaTotal: "272 hectares",
-  extensaoPraia: "Mais de 2 km",
+  areaTotal: "272,70 hectares (2,74 km²)",
+  perimetro: "272,70 ha",
+  extensaoPraia: "+400 metros de Orla",
   coordenadas: "2°25'26.60\"S 54°52'08.14\"W",
   googleEarthLink: "https://earth.google.com/earth/d/1UD5jUDUDnTdcA3PxCegttr9b8lU3bFAn?usp=sharing",
   whatsappNumber: "5591996156672",
@@ -23,107 +24,106 @@ export const FAZENDA_JUTUBA_CONFIG = {
 };
 
 export const HERO_INDICATORS = [
-  { id: "01", label: "RESERVA", sectionId: "a-fazenda" },
-  { id: "02", label: "PRAIA", sectionId: "experiencias" },
+  { id: "01", label: "TERRENO", sectionId: "a-fazenda" },
+  { id: "02", label: "ORLA", sectionId: "experiencias" },
   { id: "03", label: "SEGURANÇA", sectionId: "conforto-seguranca" },
   { id: "04", label: "LOCALIZAÇÃO", sectionId: "localizacao" },
-  { id: "05", label: "VILAS", sectionId: "reserva-jutuba" },
+  { id: "05", label: "PROJETO", sectionId: "reserva-jutuba" },
   { id: "06", label: "CONTATO", sectionId: "contato" },
 ];
 
 export const STATS_DATA = [
   {
     id: "stat-1",
-    label: "RESERVA PRESERVADA",
-    value: 272,
+    label: "PERÍMETRO TOTAL",
+    value: 272.7,
     unit: "ha",
     suffix: " ha",
-    detail: "Mata nativa 100% Intacta",
+    detail: "Perímetro de 272,70 ha",
   },
   {
     id: "stat-2",
-    label: "ORLA PARTICULAR",
-    prefix: "+",
-    value: 2,
-    unit: "km",
-    suffix: " km",
-    detail: "Praia de rio e areia clara",
+    label: "ÁREA DO TERRENO",
+    value: 2.74,
+    unit: "km²",
+    suffix: " km²",
+    detail: "Área de 2,74 km² na Amazônia",
   },
   {
     id: "stat-3",
+    label: "ORLA EXCLUSIVA",
+    prefix: "+",
+    value: 400,
+    unit: "m",
+    suffix: "m",
+    detail: "+400m de Orla no Rio Tapajós",
+  },
+  {
+    id: "stat-4",
     label: "DOCUMENTAÇÃO",
     value: 100,
     unit: "%",
     suffix: "%",
-    detail: "Matrícula, CAR & SIGEF",
-  },
-  {
-    id: "stat-4",
-    label: "LAZER NATURAL",
-    prefix: "+",
-    value: 20,
-    unit: "",
-    suffix: "",
-    detail: "Experiências e Infraestrutura",
+    detail: "Matrícula, CAR & SIGEF OK",
   },
 ];
 
 export const EXPERIENCES: ExperienceItem[] = [
   {
     id: "exp-1",
-    title: "Praia Particular de Areia Clara",
+    title: "Orla Privativa de Areia Clara (+400m)",
     category: "Praia de Rio",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=85",
-    description: "Mais de 2 km de margem exclusiva banhada por águas quentes e cristalinas no Rio Tapajós.",
+    image: "https://casasaimiri.com.br/wp-content/uploads/2023/12/WhatsApp-Image-2025-02-19-at-16.03.54-scaled-e1739991907727.jpeg",
+    description: "Mais de 400 metros de margem exclusiva banhada por águas quentes e cristalinas no Rio Tapajós.",
   },
   {
     id: "exp-2",
-    title: "Píer Estruturado Jutuba",
-    category: "Náutica",
-    image: "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=1200&q=85",
-    description: "Ancoradouro para lanchas, jet-skis e embarcações com área VIP de observação do pôr do sol.",
+    title: "Encontro das Águas em Santarém",
+    category: "Patrimônio Natural",
+    image: "https://vemparaalter.com.br/wp-content/uploads/2024/11/turismo-em-santararem-encontro-das-aguas-1.webp",
+    description: "Espetáculo único onde o Rio Tapajós de águas azuis encontra o Rio Amazonas sem se misturar.",
   },
   {
     id: "exp-3",
-    title: "Trilhas Ecológicas Sinalizadas",
-    category: "Eco-Aventura",
-    image: "https://images.unsplash.com/photo-1511497584788-876761c12355?auto=format&fit=crop&w=1200&q=85",
-    description: "Caminhadas sob a copa de árvores centenárias da floresta amazônica preservada.",
+    title: "Píer & Marina Flutuante Jutuba",
+    category: "Náutica",
+    image: "https://originalexperience.com.br/wp-content/uploads/2022/08/tour-santarem.jpg",
+    description: "Acesso hidroviário direto para lanchas, iates e jet-skis com ancoradouro privativo no terreno.",
   },
   {
     id: "exp-4",
-    title: "Birdwatching & Fauna Silvestre",
-    category: "Natureza",
-    image: "https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=1200&q=85",
-    description: "Pontos estratégicos de observação de tucanos, araras e aves endêmicas do Tapajós.",
+    title: "Alter do Chão e Enseadas do Tapajós",
+    category: "Localização",
+    image: "https://s2-redeglobo.glbimg.com/Fs4woi7v-W8RvGvQmqU_UzH1Mj8=/0x0:1080x1330/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2021/w/k/ih0AkxRSaEBJr9TlXTOQ/24d8b890-cd18-43aa-b18b-e2696e7d2df1.jpg",
+    description: "Proximidade imediata do Caribe Amazônico com praias de areia branca e turismo de alto padrão.",
   },
   {
     id: "exp-5",
-    title: "Lounge da Mata & Redário",
-    category: "Bem-estar",
-    image: "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=1200&q=85",
-    description: "Espaço de relaxamento integrado à vegetação com redário suspenso e brisa constante do rio.",
+    title: "Floresta Nativa Preservada (2,74 km²)",
+    category: "Eco-Aventura",
+    image: "https://www.tapajosdefato.com.br/images/noticias/1133/353e5368b6ebdfe74b750ccfa06fb8ef.jpeg",
+    description: "272,70 hectares de mata virgem com biodiversidade exuberante e trilhas ecológicas mapeadas.",
   },
   {
     id: "exp-6",
-    title: "Fogueira & Espaço Camping",
-    category: "Convivência",
-    image: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=85",
-    description: "Luau ribeirinho com praça do fogo ao ar livre sob um dos céus mais estrelados da Amazônia.",
+    title: "Orla Urbana e Infraestrutura de Santarém",
+    category: "Conveniência",
+    image: "https://casasaimiri.com.br/wp-content/uploads/2023/10/Orla-de-Santarem-2.jpg",
+    description: "Acesso rápido ao centro, aeroporto internacional, restaurantes e polos de desenvolvimento regional.",
   },
   {
     id: "exp-7",
-    title: "Mirante Pôr do Sol no Tapajós",
-    category: "Vista Panorâmica",
-    image: "https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?auto=format&fit=crop&w=1200&q=85",
-    description: "Decks elevados com vista de 180° para o horizonte dourado da praia e das ilhas fluviais.",
+    title: "Patrimônio Cultural e Histórico",
+    category: "Cultura & História",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Santar%C3%A9m_-_Igreja_do_Semin%C3%A1rio_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original",
+    description: "Tradição secular e rica história cultural de Santarém, a Pérola do Tapajós.",
   },
   {
     id: "exp-8",
-    title: "Base de Caiaque e Stand Up Paddle",
-    category: "Esportes Aquáticos",
-    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=85",
-    description: "Equipamentos à disposição para navegar pelas enseadas tranquilas de água morna.",
+    title: "Porto e Logística Fluvial",
+    category: "Logística",
+    image: "https://portodesantarem.com.br/wp-content/uploads/2023/10/21.jpg",
+    description: "Eixo logístico estratégico no Rio Tapajós com total facilidade de abastecimento e navegação.",
   },
 ];
 
@@ -239,16 +239,16 @@ export const CHECKLIST_SECTIONS: ChecklistSectionData[] = [
     ],
     images: [
       {
-        url: "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=1200&q=85",
-        caption: "Lounge da Reserva Jutuba e decks integrados à exuberante vegetação amazônica"
+        url: "https://casasaimiri.com.br/wp-content/uploads/2023/12/WhatsApp-Image-2025-02-19-at-16.03.54-scaled-e1739991907727.jpeg",
+        caption: "Praia de rio privativa com +400m de orla exclusiva no Rio Tapajós"
       },
       {
-        url: "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=1200&q=85",
-        caption: "Píer ancoradouro e praia particular de águas calmas no Rio Tapajós"
+        url: "https://originalexperience.com.br/wp-content/uploads/2022/08/tour-santarem.jpg",
+        caption: "Acesso náutico facilitado para embarcações e passeios em Santarém"
       },
       {
-        url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=85",
-        caption: "Orla com mais de 2 km de areia alva e floresta nativa preservada em Santarém"
+        url: "https://vemparaalter.com.br/wp-content/uploads/2024/11/turismo-em-santararem-encontro-das-aguas-1.webp",
+        caption: "Orla paradisíaca banhada pelas águas límpidas em Santarém/PA"
       }
     ]
   },
@@ -256,10 +256,10 @@ export const CHECKLIST_SECTIONS: ChecklistSectionData[] = [
     id: "vila-do-rio",
     title: "Vila do Rio",
     subtitle: "A Imersão Ecológica & Lazer Ativo",
-    description: "Para os amantes da floresta viva, a Vila do Rio conecta o morador às trilhas interpretativas, estações de observação de aves, mirantes elevados e áreas de camping sob a luz das estrelas.",
+    description: "Para os amantes da floresta viva, a Vila do Rio conecta o morador e investidor às trilhas interpretativas em 2,74 km² de área preservada (perímetro de 272,70 ha), estações de observação de aves e praias privativas.",
     checkpoints: [
       "Trilhas Ecológicas com Placas de Biodiversidade",
-      "Mirante Panorâmico do Pôr do Sol",
+      "Mirante Panorâmico do Pôr do Sol no Tapajós",
       "Espaço Fogueira & Camping sob a Copa Nativas",
       "Postos de Observação de Aves (Birdwatching)",
       "Guarderia de Caiaque, SUP e Canoa Havaiana",
@@ -269,16 +269,16 @@ export const CHECKLIST_SECTIONS: ChecklistSectionData[] = [
     ],
     images: [
       {
-        url: "https://images.unsplash.com/photo-1511497584788-876761c12355?auto=format&fit=crop&w=1200&q=85",
-        caption: "Trilhas sombreadas sob a copa de árvores gigantes da Amazônia"
+        url: "https://www.tapajosdefato.com.br/images/noticias/1133/353e5368b6ebdfe74b750ccfa06fb8ef.jpeg",
+        caption: "272,70 hectares de floresta amazônica nativa preservada"
       },
       {
-        url: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=85",
-        caption: "Espaço Fogueira e camping para noites inesquecíveis sob o céu do Tapajós"
+        url: "https://s2-redeglobo.glbimg.com/Fs4woi7v-W8RvGvQmqU_UzH1Mj8=/0x0:1080x1330/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2021/w/k/ih0AkxRSaEBJr9TlXTOQ/24d8b890-cd18-43aa-b18b-e2696e7d2df1.jpg",
+        caption: "Refúgio natural próximo a Alter do Chão e ao Rio Tapajós"
       },
       {
-        url: "https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?auto=format&fit=crop&w=1200&q=85",
-        caption: "Visual deslumbrante do pôr do sol no horizonte do Rio Tapajós"
+        url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/55/9b/71/caption.jpg?w=1200&h=1200&s=1",
+        caption: "Cenas espetaculares do pôr do sol nas margens do Tapajós"
       }
     ]
   }

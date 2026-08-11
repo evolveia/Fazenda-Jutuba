@@ -86,7 +86,7 @@ Gostaria de agendar a visita presencial para conhecer a Fazenda Jutuba em Santar
             Visite a Fazenda Jutuba
           </h3>
           <p className="text-xs text-[#E7DCC6]/80 mt-1">
-            Conheça os 272 hectares e os 2 km de praia com atendimento exclusivo.
+            Conheça o terreno de 2,74 km² (perímetro de 272,70 ha) e +400m de orla com atendimento exclusivo.
           </p>
         </div>
 

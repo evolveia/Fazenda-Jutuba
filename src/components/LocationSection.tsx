@@ -78,26 +78,42 @@ export const LocationSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Satellite Aerial Photo + Google Earth Link */}
-          <div className="relative rounded-2xl overflow-hidden border border-[#7FB68E]/30 bg-[#123B2A] h-[360px] sm:h-[420px] shadow-xl group">
+          {/* Satellite Aerial Photo + Google Earth Link matching screenshot */}
+          <div className="relative rounded-2xl overflow-hidden border border-[#7FB68E]/30 bg-[#123B2A] h-[380px] sm:h-[440px] shadow-2xl group flex flex-col justify-between p-4 sm:p-6">
             <img
-              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=85"
-              alt="Vista Aérea do Terreno Fazenda Jutuba no Google Earth"
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+              src="https://www.tapajosdefato.com.br/images/noticias/1133/353e5368b6ebdfe74b750ccfa06fb8ef.jpeg"
+              alt="Vista Aérea e Satélite da Área de 2,74 km² da Fazenda Jutuba em Santarém"
+              className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+              onError={(e) => {
+                e.currentTarget.src = "https://casasaimiri.com.br/wp-content/uploads/2023/12/WhatsApp-Image-2025-02-19-at-16.03.54-scaled-e1739991907727.jpeg";
+              }}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0A2A1C] via-transparent to-black/30" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#071F15] via-black/20 to-black/50" />
 
-            <div className="absolute top-3 left-3 px-3 py-1 rounded-md bg-[#0A2A1C]/90 text-[11px] font-bold text-[#C98A2D] uppercase tracking-wider border border-[#7FB68E]/30">
-              SATELLITE VIEW • GOOGLE EARTH
+            {/* Top Badge */}
+            <div className="relative z-10 self-start">
+              <span className="px-3.5 py-1.5 rounded-lg bg-[#0A2A1C]/90 text-[11px] font-extrabold text-[#C98A2D] uppercase tracking-widest border border-[#7FB68E]/40 backdrop-blur-md shadow-md">
+                SATELLITE VIEW • GOOGLE EARTH
+              </span>
             </div>
 
-            {/* Coordinates & Google Earth CTA */}
-            <div className="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-[#0A2A1C]/90 backdrop-blur-md border border-[#7FB68E]/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+            {/* Right Edge Numbers (01 - 06) matching image */}
+            <div className="absolute right-4 top-1/2 -translate-y-1/2 z-10 hidden sm:flex flex-col items-center gap-3 text-[#E7DCC6]/60 font-mono text-xs">
+              <span className="hover:text-[#C98A2D] cursor-pointer">01 —</span>
+              <span className="hover:text-[#C98A2D] cursor-pointer">02 —</span>
+              <span className="hover:text-[#C98A2D] cursor-pointer">03 —</span>
+              <span className="hover:text-[#C98A2D] cursor-pointer">04 —</span>
+              <span className="hover:text-[#C98A2D] cursor-pointer">05 —</span>
+              <span className="hover:text-[#C98A2D] cursor-pointer">06 —</span>
+            </div>
+
+            {/* Bottom Overlay Card matching user screenshot */}
+            <div className="relative z-10 w-full sm:max-w-[92%] p-4 rounded-xl bg-[#071F15]/90 backdrop-blur-md border border-[#7FB68E]/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-2xl">
               <div>
-                <span className="block text-[10px] text-[#7FB68E] uppercase tracking-widest font-mono">
+                <span className="block text-[10px] text-[#7FB68E] font-bold font-mono uppercase tracking-widest mb-0.5">
                   COORDENADAS GEOGRÁFICAS
                 </span>
-                <span className="text-xs sm:text-sm font-bold font-mono text-[#F5F0E4]">
+                <span className="text-xs sm:text-sm font-black font-mono text-[#F5F0E4] tracking-wide">
                   {FAZENDA_JUTUBA_CONFIG.coordenadas}
                 </span>
               </div>
@@ -106,10 +122,10 @@ export const LocationSection: React.FC = () => {
                 href={FAZENDA_JUTUBA_CONFIG.googleEarthLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-sol px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-md flex-shrink-0"
+                className="btn-sol px-5 py-2.5 rounded-xl text-xs font-black uppercase tracking-wider flex items-center gap-2 shadow-lg flex-shrink-0 transition-all hover:scale-105"
               >
                 <span>VER NO GOOGLE EARTH</span>
-                <ExternalLink className="w-3.5 h-3.5" />
+                <ExternalLink className="w-4 h-4" />
               </a>
             </div>
           </div>

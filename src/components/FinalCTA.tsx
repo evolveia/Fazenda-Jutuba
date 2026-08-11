@@ -20,9 +20,12 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenVisitModal }) => {
       {/* Background Image with Ambient Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=2000&q=90"
-          alt="Praia de Rio e Pôr do Sol Fazenda Jutuba"
+          src="https://casasaimiri.com.br/wp-content/uploads/2023/12/WhatsApp-Image-2025-02-19-at-16.03.54-scaled-e1739991907727.jpeg"
+          alt="Praia de Rio e Orla na Fazenda Jutuba em Santarém"
           className="w-full h-full object-cover object-center brightness-50"
+          onError={(e) => {
+            e.currentTarget.src = "https://www.tapajosdefato.com.br/images/noticias/1133/353e5368b6ebdfe74b750ccfa06fb8ef.jpeg";
+          }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0A2A1C]/95 via-[#0A2A1C]/85 to-[#0A2A1C]/90" />
       </div>
@@ -30,15 +33,15 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenVisitModal }) => {
       <div className="relative z-10 max-w-[1536px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#123B2A]/90 border border-[#C98A2D]/50 text-xs font-bold text-[#C98A2D] uppercase tracking-widest mb-6 shadow-xl">
           <Sparkles className="w-4 h-4 text-[#C98A2D]" />
-          <span>Lançamento Exclusivo em Santarém</span>
+          <span>Oportunidade Única de Investimento em Santarém/PA</span>
         </div>
 
         <h2 className="text-3xl sm:text-5xl md:text-6xl font-black font-heading text-[#F5F0E4] leading-tight tracking-tight mb-6">
-          Sua vida em <span className="text-[#C98A2D]">modo floresta</span> espera por você.
+          Venda de Terreno de Luxo na <span className="text-[#C98A2D]">Amazônia</span>.
         </h2>
 
         <p className="text-base sm:text-xl text-[#E7DCC6]/90 max-w-3xl mx-auto mb-10 leading-relaxed font-normal">
-          Garanta sua fração ou lote na 1ª Reserva Residencial Particular de Santarém. 272 hectares de bioma preservado, orla de 2 km de praia e documentação 100% legalizada.
+          Adquira uma propriedade única de <strong className="text-[#F5F0E4]">2,74 km²</strong> (perímetro de <strong className="text-[#F5F0E4]">272,70 ha</strong>) com <strong className="text-[#C98A2D]">+400 metros de Orla</strong> no Rio Tapajós. Documentação 100% regularizada em Santarém/PA.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
