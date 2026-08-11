@@ -15,12 +15,9 @@ export const Header: React.FC<HeaderProps> = ({ onOpenVisitModal }) => {
     { label: 'GARANTA JÁ A SUA', href: '#contato-rapido', highlight: true },
     { label: 'A FAZENDA', href: '#a-fazenda' },
     { label: 'EXPERIÊNCIAS', href: '#experiencias' },
-    { label: 'SEGURANÇA', href: '#conforto-seguranca' },
     { label: 'LOCALIZAÇÃO', href: '#localizacao' },
     { label: 'RESERVA JUTUBA', href: '#reserva-jutuba' },
-    { label: 'VILA DO RIO', href: '#vila-do-rio' },
     { label: 'GARANTIA & JURÍDICO', href: '#estrutura-financeira' },
-    { label: 'PASSO A PASSO', href: '#passo-a-passo-investimento' },
     { label: 'FAQ', href: '#faq' },
   ];
 
@@ -33,7 +30,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenVisitModal }) => {
       }
 
       // Scrollspy
-      const sections = ['a-fazenda', 'experiencias', 'conforto-seguranca', 'localizacao', 'reserva-jutuba', 'vila-do-rio', 'estrutura-financeira', 'passo-a-passo-investimento', 'faq'];
+      const sections = ['a-fazenda', 'experiencias', 'localizacao', 'reserva-jutuba', 'estrutura-financeira', 'faq'];
       const scrollPos = window.scrollY + 200;
 
       for (const sec of sections) {

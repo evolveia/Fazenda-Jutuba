@@ -82,11 +82,6 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) =>
                 </a>
               </li>
               <li>
-                <a href="#conforto-seguranca" className="hover:text-[#C98A2D] transition-colors">
-                  Segurança & Infraestrutura
-                </a>
-              </li>
-              <li>
                 <a href="#localizacao" className="hover:text-[#C98A2D] transition-colors">
                   Localização & Distâncias
                 </a>
@@ -94,11 +89,6 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) =>
               <li>
                 <a href="#reserva-jutuba" className="hover:text-[#C98A2D] transition-colors">
                   Reserva Jutuba
-                </a>
-              </li>
-              <li>
-                <a href="#vila-do-rio" className="hover:text-[#C98A2D] transition-colors">
-                  Vila do Rio
                 </a>
               </li>
               <li>

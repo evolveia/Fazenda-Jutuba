@@ -9,7 +9,7 @@ export const BannerHeroImage: React.FC = () => {
           {/* Main Large Image */}
           <div className="h-[360px] sm:h-[480px] lg:h-[580px] w-full overflow-hidden relative">
             <img
-              src="https://viagemeturismo.abril.com.br/wp-content/uploads/2016/12/santarem_foto_ivo_lima00306172016.jpeg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe53nNXsPFWR21kw_qjoAYOS4n7QS5hlgX7rfWDYi9rB84qSPhYr79YLNt&s=10"
               alt="Vista das Praias e Orla Fluvial de Santarém e Acesso à Fazenda Jutuba"
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-1000 ease-out"
               onError={(e) => {

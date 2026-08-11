@@ -251,36 +251,6 @@ export const CHECKLIST_SECTIONS: ChecklistSectionData[] = [
         caption: "Praia de rio privativa com +400m de orla exclusiva no Rio Tapajós"
       }
     ]
-  },
-  {
-    id: "vila-do-rio",
-    title: "Vila do Rio",
-    subtitle: "A Imersão Ecológica & Lazer Ativo",
-    description: "Para os amantes da floresta viva, a Vila do Rio conecta o morador e investidor às trilhas interpretativas em 2,74 km² de área preservada (perímetro de 272,70 ha), estações de observação de aves e praias privativas.",
-    checkpoints: [
-      "Trilhas Ecológicas com Placas de Biodiversidade",
-      "Mirante Panorâmico do Pôr do Sol no Tapajós",
-      "Espaço Fogueira & Camping sob a Copa Nativas",
-      "Postos de Observação de Aves (Birdwatching)",
-      "Guarderia de Caiaque, SUP e Canoa Havaiana",
-      "Praça de Jogos ao Ar Livre",
-      "Horta Comunitária de Ervas Amazônicas",
-      "Redário e Espaço de Meditação na Mata",
-    ],
-    images: [
-      {
-        url: "https://www.essemundoenosso.com.br/wp-content/uploads/2019/10/O-que-fazer-em-Santar%C3%A9m-destaque.jpg",
-        caption: "Paisagens e belezas naturais deslumbrantes da região de Santarém"
-      },
-      {
-        url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMPMzDY6GEAf6cXMy8X9Mfbat21Q7WgEa2XWJQmEzqJ31FW2pEYfa0KnlOA_OnmJaHNDAu7bDNK_h-9BaSq28mP1E4LKkZPiNEV0Hdrqm_Ln2kef50jRtffpnLyC9NCI9xoJgqX1w9gBdl/s1600/Boto+Tamara+Sar%25C3%25A9.jpg",
-        caption: "Fauna e biodiversidade única com o encanto do Rio Tapajós"
-      },
-      {
-        url: "https://blog.123milhas.com/wp-content/uploads/2022/01/IMAGEM-02-FLONA-FLORESTA-NACIONAL-TAPAJOS-TEM-QUE-IR-SANTAREM-1024-X-650-123MILHAS.jpg",
-        caption: "272,70 hectares de floresta amazônica nativa preservada na FLONA Tapajós"
-      }
-    ]
   }
 ];
 

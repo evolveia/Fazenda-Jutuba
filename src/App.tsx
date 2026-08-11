@@ -5,13 +5,11 @@ import { Hero } from './components/Hero';
 import { StatsBar } from './components/StatsBar';
 import { LeadFormSection } from './components/LeadFormSection';
 import { ExperiencesCarousel } from './components/ExperiencesCarousel';
-import { ComfortSafetyGrid } from './components/ComfortSafetyGrid';
 import { BannerHeroImage } from './components/BannerHeroImage';
 import { NatureModeVideo } from './components/NatureModeVideo';
 import { LocationSection } from './components/LocationSection';
 import { FeatureSection } from './components/FeatureSection';
 import { FinancialLegalSection } from './components/FinancialLegalSection';
-import { InvestorStepsSection } from './components/InvestorStepsSection';
 import { FAQSection } from './components/FAQSection';
 import { FinalCTA } from './components/FinalCTA';
 import { Footer } from './components/Footer';
@@ -45,28 +43,22 @@ export default function App() {
         {/* 5. Experiences Carousel */}
         <ExperiencesCarousel />
 
-        {/* 6. Comfort & Safety Grid (10 linear labeled icons) */}
-        <ComfortSafetyGrid />
-
-        {/* 7. Banner Hero Image (Portaria e Guarita) */}
+        {/* 6. Banner Hero Image */}
         <BannerHeroImage />
 
-        {/* 8. Modo Floresta Video Section + LGPD Overlay */}
+        {/* 7. Modo Floresta Video Section + LGPD Overlay */}
         <NatureModeVideo onOpenVisitModal={() => setVisitModalOpen(true)} />
 
-        {/* 9. Location & Map Section */}
+        {/* 8. Location & Map Section */}
         <LocationSection />
 
-        {/* 10. Alternating Feature Sections (Reserva Jutuba & Vila do Rio) */}
+        {/* 9. Alternating Feature Sections (Reserva Jutuba) */}
         <FeatureSection onOpenVisitModal={() => setVisitModalOpen(true)} />
 
-        {/* 11. Estrutura Financeira e Jurídica */}
+        {/* 10. Estrutura Financeira e Jurídica */}
         <FinancialLegalSection onOpenVisitModal={() => setVisitModalOpen(true)} />
 
-        {/* 12. Passo a Passo do Investimento */}
-        <InvestorStepsSection onOpenVisitModal={() => setVisitModalOpen(true)} />
-
-        {/* 13. FAQ Accordion Section */}
+        {/* 11. FAQ Accordion Section */}
         <FAQSection onOpenVisitModal={() => setVisitModalOpen(true)} />
 
         {/* 12. Final High-Impact Conversion CTA */}
