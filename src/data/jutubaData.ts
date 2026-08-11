@@ -73,7 +73,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     id: "exp-1",
     title: "Orla Privativa de Areia Clara (+400m)",
     category: "Praia de Rio",
-    image: "https://casasaimiri.com.br/wp-content/uploads/2023/12/WhatsApp-Image-2025-02-19-at-16.03.54-scaled-e1739991907727.jpeg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe53nNXsPFWR21kw_qjoAYOS4n7QS5hlgX7rfWDYi9rB84qSPhYr79YLNt&s=10",
     description: "Mais de 400 metros de margem exclusiva banhada por águas quentes e cristalinas no Rio Tapajós.",
   },
   {
@@ -101,7 +101,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     id: "exp-5",
     title: "Floresta Nativa Preservada (2,74 km²)",
     category: "Eco-Aventura",
-    image: "https://www.tapajosdefato.com.br/images/noticias/1133/353e5368b6ebdfe74b750ccfa06fb8ef.jpeg",
+    image: "https://blog.123milhas.com/wp-content/uploads/2022/01/IMAGEM-02-FLONA-FLORESTA-NACIONAL-TAPAJOS-TEM-QUE-IR-SANTAREM-1024-X-650-123MILHAS.jpg",
     description: "272,70 hectares de mata virgem com biodiversidade exuberante e trilhas ecológicas mapeadas.",
   },
   {
@@ -131,14 +131,14 @@ export const COMFORT_SAFETY_ITEMS: ComfortItem[] = [
   {
     id: "cs-1",
     iconName: "ShieldCheck",
-    label: "Portaria com Controle de Acesso",
-    description: "Guarita inteligente com identificação biológica e cancelas automáticas.",
+    label: "+400 metros de frente para a praia",
+    description: "Orla privativa de praia de rio com areia clara e águas límpidas no Rio Tapajós.",
   },
   {
     id: "cs-2",
     iconName: "Camera",
-    label: "Monitoramento 24h",
-    description: "Câmeras de alta definição e ronda interna em todo o perímetro habitável.",
+    label: "Monitoramento & Acesso Controlado",
+    description: "Identificação e privacidade garantida em todo o perímetro da propriedade.",
   },
   {
     id: "cs-3",
@@ -234,21 +234,21 @@ export const CHECKLIST_SECTIONS: ChecklistSectionData[] = [
       "Espaço Gourmet com Parrilla e Forno a Lenha",
       "Arena Esportiva de Beach Tennis na Areia Nativa",
       "Piscina Natural Integrada ao Rio",
-      "Guarita de Acesso com Segurança 24h",
+      "+400 metros de frente para a praia",
       "Espaço Kids Ecológico em Madeira Sustentável",
     ],
     images: [
       {
+        url: "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/12/santarem_foto_ivo_lima00306172016.jpeg",
+        caption: "Vista panorâmica das praias límpidas do Tapajós em Santarém"
+      },
+      {
+        url: "https://flordejambu.com/wp-content/uploads/2022/07/Pontos-Turisticos-em-Santarem.png",
+        caption: "Pontos turísticos paradisíacos e águas mornas de Santarém/PA"
+      },
+      {
         url: "https://casasaimiri.com.br/wp-content/uploads/2023/12/WhatsApp-Image-2025-02-19-at-16.03.54-scaled-e1739991907727.jpeg",
         caption: "Praia de rio privativa com +400m de orla exclusiva no Rio Tapajós"
-      },
-      {
-        url: "https://originalexperience.com.br/wp-content/uploads/2022/08/tour-santarem.jpg",
-        caption: "Acesso náutico facilitado para embarcações e passeios em Santarém"
-      },
-      {
-        url: "https://vemparaalter.com.br/wp-content/uploads/2024/11/turismo-em-santararem-encontro-das-aguas-1.webp",
-        caption: "Orla paradisíaca banhada pelas águas límpidas em Santarém/PA"
       }
     ]
   },
@@ -269,16 +269,16 @@ export const CHECKLIST_SECTIONS: ChecklistSectionData[] = [
     ],
     images: [
       {
-        url: "https://www.tapajosdefato.com.br/images/noticias/1133/353e5368b6ebdfe74b750ccfa06fb8ef.jpeg",
-        caption: "272,70 hectares de floresta amazônica nativa preservada"
+        url: "https://www.essemundoenosso.com.br/wp-content/uploads/2019/10/O-que-fazer-em-Santar%C3%A9m-destaque.jpg",
+        caption: "Paisagens e belezas naturais deslumbrantes da região de Santarém"
       },
       {
-        url: "https://s2-redeglobo.glbimg.com/Fs4woi7v-W8RvGvQmqU_UzH1Mj8=/0x0:1080x1330/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2021/w/k/ih0AkxRSaEBJr9TlXTOQ/24d8b890-cd18-43aa-b18b-e2696e7d2df1.jpg",
-        caption: "Refúgio natural próximo a Alter do Chão e ao Rio Tapajós"
+        url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMPMzDY6GEAf6cXMy8X9Mfbat21Q7WgEa2XWJQmEzqJ31FW2pEYfa0KnlOA_OnmJaHNDAu7bDNK_h-9BaSq28mP1E4LKkZPiNEV0Hdrqm_Ln2kef50jRtffpnLyC9NCI9xoJgqX1w9gBdl/s1600/Boto+Tamara+Sar%25C3%25A9.jpg",
+        caption: "Fauna e biodiversidade única com o encanto do Rio Tapajós"
       },
       {
-        url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/55/9b/71/caption.jpg?w=1200&h=1200&s=1",
-        caption: "Cenas espetaculares do pôr do sol nas margens do Tapajós"
+        url: "https://blog.123milhas.com/wp-content/uploads/2022/01/IMAGEM-02-FLONA-FLORESTA-NACIONAL-TAPAJOS-TEM-QUE-IR-SANTAREM-1024-X-650-123MILHAS.jpg",
+        caption: "272,70 hectares de floresta amazônica nativa preservada na FLONA Tapajós"
       }
     ]
   }

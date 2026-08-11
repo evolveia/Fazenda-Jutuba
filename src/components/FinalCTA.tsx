@@ -20,7 +20,7 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenVisitModal }) => {
       {/* Background Image with Ambient Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://casasaimiri.com.br/wp-content/uploads/2023/12/WhatsApp-Image-2025-02-19-at-16.03.54-scaled-e1739991907727.jpeg"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe53nNXsPFWR21kw_qjoAYOS4n7QS5hlgX7rfWDYi9rB84qSPhYr79YLNt&s=10"
           alt="Praia de Rio e Orla na Fazenda Jutuba em Santarém"
           className="w-full h-full object-cover object-center brightness-50"
           onError={(e) => {

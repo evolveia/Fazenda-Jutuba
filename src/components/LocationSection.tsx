@@ -81,7 +81,7 @@ export const LocationSection: React.FC = () => {
           {/* Satellite Aerial Photo + Google Earth Link matching screenshot */}
           <div className="relative rounded-2xl overflow-hidden border border-[#7FB68E]/30 bg-[#123B2A] h-[380px] sm:h-[440px] shadow-2xl group flex flex-col justify-between p-4 sm:p-6">
             <img
-              src="https://www.tapajosdefato.com.br/images/noticias/1133/353e5368b6ebdfe74b750ccfa06fb8ef.jpeg"
+              src="https://s2-g1.glbimg.com/EIoWOTc8cH835ktZZruDGHurh54=/0x0:4000x2800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/A/Y/nFKbpsQtynxV39RpPlng/2023-08-04t123850z-1758023215-rc2u8x9wbysc-rtrmadp-3-brazil-environment-amazon.jpg"
               alt="Vista Aérea e Satélite da Área de 2,74 km² da Fazenda Jutuba em Santarém"
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               onError={(e) => {

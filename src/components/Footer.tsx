@@ -57,7 +57,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) =>
             </div>
 
             <p className="text-xs text-[#E7DCC6]/80 leading-relaxed max-w-sm pt-2">
-              Eco-living de alto padrão e preservação na Amazônia brasileira. 272 hectares de reserva particular protegida e mais de 2 km de orla de praia no Rio Tapajós.
+              Eco-living de alto padrão e preservação na Amazônia brasileira. 272 hectares de reserva particular protegida e mais de 400 m de orla de praia no Rio Tapajós.
             </p>
 
             <div className="pt-2 text-xs font-mono text-[#7FB68E]">

@@ -13,14 +13,19 @@ const HERO_IMAGES = [
     caption: "+400 metros de Orla Exclusiva no Rio Tapajós"
   },
   {
-    url: "https://www.tapajosdefato.com.br/images/noticias/1133/353e5368b6ebdfe74b750ccfa06fb8ef.jpeg",
-    alt: "Vista aérea da floresta preservada de 272,70 ha em Santarém",
-    caption: "Terreno de 2,74 km² (272,70 ha) de Floresta Preservada"
+    url: "https://flordejambu.com/wp-content/uploads/2022/07/Pontos-Turisticos-em-Santarem.png",
+    alt: "Pontos Turísticos e praias de Santarém/PA",
+    caption: "Belezas Naturais e Turismo Exclusivo em Santarém"
   },
   {
-    url: "https://vemparaalter.com.br/wp-content/uploads/2024/11/turismo-em-santararem-encontro-das-aguas-1.webp",
-    alt: "Encontro das águas e orla fluvial em Santarém/PA",
-    caption: "Santarém • Encontro das Águas & Tapajós"
+    url: "https://s2-g1.glbimg.com/EIoWOTc8cH835ktZZruDGHurh54=/0x0:4000x2800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/A/Y/nFKbpsQtynxV39RpPlng/2023-08-04t123850z-1758023215-rc2u8x9wbysc-rtrmadp-3-brazil-environment-amazon.jpg",
+    alt: "Vista aérea exuberante da floresta preservada e Rio Tapajós",
+    caption: "Terreno de 2,74 km² (272,70 ha) de Floresta e Rio Tapajós"
+  },
+  {
+    url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMPMzDY6GEAf6cXMy8X9Mfbat21Q7WgEa2XWJQmEzqJ31FW2pEYfa0KnlOA_OnmJaHNDAu7bDNK_h-9BaSq28mP1E4LKkZPiNEV0Hdrqm_Ln2kef50jRtffpnLyC9NCI9xoJgqX1w9gBdl/s1600/Boto+Tamara+Sar%25C3%25A9.jpg",
+    alt: "Fauna e Boto do Rio Tapajós em Santarém",
+    caption: "Santarém • Riqueza Natural do Bioma Tapajós"
   }
 ];
 
